@@ -16,16 +16,39 @@ main {
 }
 
 section {
+  @media only screen and (min-width: 800px) {
+    width: 90%;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    width: 90%;
+  }
+
+  @media only screen and (min-width: 1440px) {
+    width: 50%;
+  }
+
+  @media only screen and (min-width: 2560px) {
+    width: 35%;
+  }
+
   .card-container {
     background-color: hsl(0, 0%, 100%);
     border-radius: 2em  2em 6em  2em;
     padding: 2em;
     position: relative;
     margin: 1em;
+    @media only screen and (min-width: 800px) {
+      padding: 4em;
+      border-radius: 2em  2em 12em  2em;
+    }
 
     form {
       display: flex;
       gap: 1em;
+      @media only screen and (min-width: 800px) {
+        width: 75%;
+      }
       .input {
         display: grid;
       }
@@ -34,7 +57,11 @@ section {
         font-size: 0.7em;
         text-transform: uppercase;
         color: hsl(0, 1%, 44%);
-        letter-spacing: 2px;
+        letter-spacing: 3px;
+        @media only screen and (min-width: 800px) {
+          font-size: 1em;
+          line-height: 3em;
+        }
       }
 
       input {
@@ -45,6 +72,14 @@ section {
         border-radius: 10px;
         padding: 10px;
         font-weight: 700;
+        &::placeholder {
+          font-family: 'Poppins', sans-serif;
+          color: hsl(0, 1%, 44%);
+        }
+        @media only screen and (min-width: 800px) {
+          font-size: 2em;
+          padding: 15px;
+        }
       }
       
     }
@@ -62,6 +97,9 @@ section {
       width: 100%;
       display: flex;
       justify-content: center;  
+      @media only screen and (min-width: 800px) {
+        justify-content: end; 
+      }
     }
 
     button {
@@ -77,6 +115,13 @@ section {
 
       &:hover {
         background-color: hsl(0, 0%, 8%);
+        cursor: pointer;
+      }
+
+      @media only screen and (min-width: 800px) {
+        height: 7em;
+        width: 7em;
+        top: -46px;
       }
 
       img {
@@ -93,6 +138,10 @@ section {
     font-weight: 800;
     font-style: italic;
     line-height: 1.2em;
+
+    @media only screen and (min-width: 800px) {
+      font-size: 6em;
+    }
 
     span {
       color: hsl(259, 100%, 65%);
