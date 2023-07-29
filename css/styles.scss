@@ -17,19 +17,15 @@ main {
 
 section {
   @media only screen and (min-width: 800px) {
-    width: 90%;
+    width: 60em;
   }
 
   @media only screen and (min-width: 1024px) {
-    width: 90%;
+    width: 60em;
   }
 
   @media only screen and (min-width: 1440px) {
-    width: 50%;
-  }
-
-  @media only screen and (min-width: 2560px) {
-    width: 35%;
+    width: 60em;
   }
 
   .card-container {
@@ -64,7 +60,7 @@ section {
         }
       }
 
-      input {
+      input[type="number"] {
         width: 80%;
         font-size: 1.5em;
         border: 1px solid hsl(0, 0%, 86%);
@@ -76,10 +72,24 @@ section {
           font-family: 'Poppins', sans-serif;
           color: hsl(0, 1%, 44%);
         }
+
+        &:focus {
+          border: 1px solid hsl(259, 100%, 65%);
+          outline: 0;
+        }
+
         @media only screen and (min-width: 800px) {
           font-size: 2em;
           padding: 15px;
         }
+      }
+      input[type="number"]::-webkit-inner-spin-button,
+      input[type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      input[type="number"] {
+        -moz-appearance: textfield; /* Firefox */
       }
       
     }
