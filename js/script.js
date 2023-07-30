@@ -13,9 +13,16 @@ $("#submitButton").click(function() {
 	const startDate = new Date(ageYears, ageMonths - 1, ageDays);
 	const ageInMilliseconds = today - startDate;
 	const ageDate = new Date(ageInMilliseconds);
-	const years = ageDate.getUTCFullYear() - 1970;
-	const months = ageDate.getUTCMonth();
-	const days = ageDate.getUTCDate() - 1;
+	let years = ageDate.getUTCFullYear() - 1970;
+	let months = ageDate.getUTCMonth();
+	let days = ageDate.getUTCDate() - 1;
+
+	// Check if any of the calculated values is NaN (due to empty inputs or invalid dates)
+	if (isNaN(years) || isNaN(months) || isNaN(days)) {
+		years = "--";
+		months = "--";
+		days = "--";
+	}
 
 	// Update the spans with the calculated age using jQuery
 	$("#years").text(years);
@@ -41,7 +48,7 @@ $("#submitButton").click(function() {
     const validationRules = {
       dayInput: { min: 1, max: 31, field: "day", errorMsg: "Must be a valid day" },
       monthInput: { min: 1, max: 12, field: "month", errorMsg: "Must be a valid month" },
-      yearInput: { min: 1900, max: new Date().getFullYear(), field: "year", errorMsg: "Must be in the past" }
+      yearInput: { min: 0, max: new Date().getFullYear(), field: "year", errorMsg: "Must be in the past" }
     };
 
     let hasErrors = false;
