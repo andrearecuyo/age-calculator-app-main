@@ -13,40 +13,43 @@
     <section>
       <div class="card-container">
         <div class="card-header">
-          <form>
+          <form id="ageForm">
             <div class="input">
-              <label for="day">Day</label>
-              <input type="number" id="day" placeholder="DD">
+              <label for="dayInput">Day</label>
+              <input type="text" name="dayInput" id="dayInput" placeholder="DD" maxlength="2">
+              <p id="dayInputErrorMessage"></p>
             </div>
 
             <div class="input">
-              <label for="month">Month</label>
-              <input type="number" id="month" placeholder="MM">
+              <label for="monthInput">Month</label>
+              <input type="text" name="monthInput" id="monthInput" placeholder="MM" maxlength="2">
+              <p id="monthInputErrorMessage"></p>
             </div>
 
             <div class="input">
-              <label for="year">Year</label>
-              <input type="number" id="year" placeholder="YYYY">
+              <label for="yearInput">Year</label>
+              <input type="text" name="yearInput" id="yearInput" placeholder="YYYY" maxlength="4">
+              <p id="yearInputErrorMessage"></p>
             </div>
           </form>
         </div>
         <div class="card-button">
           <hr>
           <div class="form-button">
-            <button>
+            <button type="button" id="submitButton">
               <img src="./assets/images/icon-arrow.svg" alt="icon Arrow">
             </button>
           </div>
         </div>
         <div class="card-body">
           <div>
-            <span>--</span> years
+            <span id="years">--</span> years
           </div>
           <div>
-            <span>--</span> months
+            <span id="months">--</span> months
           </div>
           <div>
-            <span>--</span> days
+            <span id="days">--</span> days
           </div>
         </div>
       </div>
@@ -56,6 +59,6 @@
     </section>
   </main>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="script.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 </html>
