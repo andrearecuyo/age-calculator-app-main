@@ -3,6 +3,25 @@ $(document).ready(function() {
   // Event listener for form submission when the button is clicked
 $("#submitButton").click(function() {
 	validateInputs();
+	// Get input values from the input fields
+	const ageYears = parseInt($("#yearInput").val(), 10);
+	const ageMonths = parseInt($("#monthInput").val(), 10);
+	const ageDays = parseInt($("#dayInput").val(), 10);
+
+	// Calculate the age in years, months, and days
+	const today = new Date();
+	const startDate = new Date(ageYears, ageMonths - 1, ageDays);
+	const ageInMilliseconds = today - startDate;
+	const ageDate = new Date(ageInMilliseconds);
+	const years = ageDate.getUTCFullYear() - 1970;
+	const months = ageDate.getUTCMonth();
+	const days = ageDate.getUTCDate() - 1;
+
+	// Update the spans with the calculated age using jQuery
+	$("#years").text(years);
+	$("#months").text(months);
+	$("#days").text(days);
+	$(".card-body").show();
 });
 
   // Event listener for input fields to remove error state
