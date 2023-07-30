@@ -60,7 +60,7 @@ section {
         }
       }
 
-      input[type="number"] {
+      input[type="text"] {
         width: 80%;
         font-size: 1.5em;
         border: 1px solid hsl(0, 0%, 86%);
@@ -68,6 +68,8 @@ section {
         border-radius: 10px;
         padding: 10px;
         font-weight: 700;
+        -moz-appearance: textfield; /* Firefox */
+
         &::placeholder {
           font-family: 'Poppins', sans-serif;
           color: hsl(0, 1%, 44%);
@@ -78,20 +80,42 @@ section {
           outline: 0;
         }
 
+        &::-webkit-inner-spin-button,
+        &::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+
         @media only screen and (min-width: 800px) {
           font-size: 2em;
           padding: 15px;
         }
       }
-      input[type="number"]::-webkit-inner-spin-button,
-      input[type="number"]::-webkit-outer-spin-button {
-        -webkit-appearance: none;
-        margin: 0;
+
+      .label-error {
+        color: hsl(0, 100%, 67%);
       }
-      input[type="number"] {
-        -moz-appearance: textfield; /* Firefox */
+
+      input[type="text"].error {
+        border: 1px solid hsl(0, 100%, 74%);
+      }
+
+      input[type="text"]:not(.error)::placeholder {
+        color: #3e3c49;
+      }
+
+      input[type="text"].error:focus {
+        border: 1px solid hsl(0, 100%, 74%);
+        outline: 0;
       }
       
+      p {
+        color: hsl(0, 100%, 67%);
+        font-size: 0.9em;
+        font-weight: 400;
+        font-style: italic;
+        height: 1em;
+      }
     }
   }
 
