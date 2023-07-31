@@ -73,6 +73,11 @@ $("#submitButton").click(function() {
           displayErrorMessage(errorElement, errorMsg);
           applyErrorStyle(input);
           hasErrors = true;
+
+					// Update age to '--'
+					$("#years").text("--");
+					$("#months").text("--");
+					$("#days").text("--");
         }
       }
     }
