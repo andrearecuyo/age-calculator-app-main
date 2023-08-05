@@ -1,102 +1,78 @@
-# Frontend Mentor - Age calculator app
+# Frontend Mentor - Age calculator app solution
 
-![Design preview for the Age calculator app coding challenge](./design/desktop-preview.jpg)
+This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.  
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-**To do this challenge, you need a decent understanding of HTML, CSS and JavaScript.**
+## Overview
 
-## The challenge
+### Screenshot
 
-Your challenge is to build out this age calculator app and get it looking as close to the design as possible.
+![](https://lh3.googleusercontent.com/fife/AKsag4OhqEdWW61x4IQie-1qk-ktwFki85t2_CREHSSYDXQ0KA53H1hv2ZkyDBqRMuY4a2UFdw9Vxh-viIVrCqvrBowaoZWhhv9RyIJYjl5KfrFMnxVQQYHD4VoKdSy9yoltKpBb98KWdWgg1Su0X9Duuu2YEn2ylwkQ7j2B01vEIHw9NZOYz_u-QBY-nB8AVNgsGdJWlL7MFlt-aE6ydgaycX-dS1gKjpxdT1aVM_0KK5h8G3bv9Ubv0PGRFNeHDFNsUAwRcQFnr-NcVU9EQqveIx5ryzUiU5LCIJljqfdLmp2n_mrFRrVYjSNrv8pQ4bDMcWE7pr761aJhqoo81LjN0tZBIAVcN50ttw1m7nJc5SKnDIeNBmvjvwlGUiN_4ygVU5VUneOU4uZ6YYy_od3dNBsRF_GhAd9ysGRME-6amGrcD3EMc_J3DhwCj8O-s3cu6lDOZepMYfUN_WGqAnioz72wGM8ArrVuVdzNekRc0dhw6MBn7kuNW7ZydrniGUe_VbI8Yd3jSj46IpAbQtby_rHb8bUnFaMP3kr0PllJXfaQyo_ilDSfhxnikG2kfRtAZxfP05fNCZ939GcbqfKCSNWw_IFyR3rttSZJdcZX6EOg6TYBUH1zAv28vIM-12FVlFmNem07KAP82BTE7xXVJcVoCszHrdW8CFSGkhQPZqTXUdIgxdPozkJGl3w-N2I7WVisZFqYMD34cIqUiTzoyU4snzEdEBdbSY8bg14CC6tsDxacDQdRcL7FE3dy8Pm1Wu0tk4NJXJHg0RLyIjtqSyzmm68EzP2YJ7lMUgLPXRLlcGoADHX6mK9U1b8chyZFLInNF2s29Mu25YDdoIyz0jFX6EdpWX9G7YrUO_Rdts5POgA0Hq8lWop1r5bOx5q6SkXbI2FFidhjia2FbIBkw5XfeAx-LhYXcgXd8HS-i2ndYbRgh0q_6uZ1MwUG9LKcF-ExKCU7A3HtkNzR7Zg_qINKpttscaQAtc5k0in5aCI0J7ML-21gDiuAnmFwEulEmjFXfBsMG1juJASp8Bpvh5E9YYKhwc02bv5UXjwC7qtFe8hxWDSWGzg3uxA4vCvO8Q8_lL3-27TDAJGm_cq5fyAia1oB_pLyNfLMXiDniLEglk4GTK0u_Vv6aUAOx-_LEXfJkl_-nlPS7Ka-c_QHXHpbWifa5_igOzQ3yKYvCMm3omg-EWv-Q81miFWgzHZK9n1Z5Dg_JUo2D7LpN6JAzgpIW6cd3Idq1Bez15RcrxH83vkFwhs5efBNhh8RqXVDrtjPRD-sPLh-PGY0y8duNC95TlvjYJM_slg3MkL0DWpWh8huRn1j9l6f4nnGwyrclp68_C5wDwJvEgxRIvy2wqIo367gS3bASEhSyQ-UaAY-GbhMHGUxnuWgxyWZKhoHpASrV57kl0wXNMvnDjbEbhSWdBhVOewssP-kTSgDhBVSYPlSLSRtot60jBdjSUDGITXU9EEPINeMg7TOchDxjAQrrWudzK7fKFkb2AoF7pZcJie7EOYIagch17IVP83CdUptKg=w1920-h929)
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+### Links
 
-Your users should be able to: 
+- Solution URL: [Source Code](https://github.com/andrearecuyo/age-calculator-app-main)
+- Live Site URL: [Demo](https://andrearecuyo.github.io/age-calculator-app-main/)
 
-- View an age in years, months, and days after submitting a valid date through the form
-- Receive validation errors if:
-  - Any field is empty when the form is submitted
-  - The day number is not between 1-31
-  - The month number is not between 1-12
-  - The year is in the future
-  - The date is invalid e.g. 31/04/1991 (there are 30 days in April)
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
-- **Bonus**: See the age numbers animate to their final number when the form is submitted
+## My process
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+### Built with
 
-## Where to find everything
+- HTML
+- CSS
+- JavaScript
+- [jQuery](https://jquery.com/)
+- [LESS](https://lesscss.org/)
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+### What I learned
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+- Form Validation: I've gained an understanding of how to validate form inputs effectively. I now know how to ensure that the user provides valid data by setting rules and error messages.
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+- Age Calculation: I've discovered how to calculate a person's age based on their birthdate and the current date using the Date object. This skill is particularly useful for creating age-related features on my website.
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+- Event Handling: I now have the skills to handle different events triggered by users, such as form submissions and button clicks. This means I can make my website react dynamically to user actions.
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+- DOM Control: I've learned how to manipulate the elements on my web page using jQuery. This is super useful for updating content and styles without having to reload the entire page.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+- Dealing with Errors: I've learned how to handle errors gracefully. When users provide incorrect input, I can display error messages and highlight the problematic areas in a visually appealing manner.
 
-## Building your project
+- Display Logic: I've mastered the art of conditionally showing content. I now know how to display the calculated age only when the user's input is valid, avoiding any confusion caused by showing incorrect information.
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+Calculation of age in years, months, and days
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+ ```javascript
+const today = new Date();
+const startDate = new Date(ageYears, ageMonths - 1, ageDays);
+const ageInMilliseconds = today - startDate;
+const ageDate = new Date(ageInMilliseconds);
+let years = ageDate.getUTCFullYear() - 1970;
+let months = ageDate.getUTCMonth();
+let days = ageDate.getUTCDate() - 1;
 
-## Deploying your project
+```
+### Useful resources
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+- [jQuery](https://jquery.com/)
+- [JavaScript](https://www.w3schools.com/js/)
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+## Author
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+- Website - [Andrea Recuyo](https://andrearecuyo.github.io/andrearecuyoportfolio/)
+- Frontend Mentor - [@andrearecuyo](https://www.frontendmentor.io/profile/andrearecuyo)
 
-## Create a custom `README.md`
+## Acknowledgments
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
-
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
-
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
-
-## Submitting your solution
-
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
-
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+Thank you to Frontend Mentor for providing frontend challenges.
